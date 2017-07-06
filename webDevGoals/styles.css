@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Background Color For Page*/
+html { 
+	background-color: #3a3594;
+}
+
+/*Font Type for Document*/
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	color:white;
+}
+
+/*
+html { 
+  background: url(images/intro-bg.jpg) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+
+
+/* Header Intro Title*/
+#webTitle {
+	text-align: center;
+	font-size: 5em;
+	color: #B0B0AF;
+	margin-bottom: 3%;
+	
+}
+
+/*SubHeading In Intro Title*/
+#titleSub {
+	color:#CADFF4;
+	text-align: center;
+	margin-top: -1%;
+	margin-bottom: 3%;
+	font-size: 1.2em;
+
+}
+
+/*Social Icons*/
+#socialIcons {
+	max-width:100%;
+	text-align: center;
+}
+#socialIcons img{
+	display: inline;
+	margin-left:auto;
+	margin-right: auto;
+	max-width: 5%;
+	padding: 0px 20px;
+}
+
+#socialIconsLine {
+	max-width: 70%;
+}
+/*Photo Under Intro Title*/
+#headshot {
+	max-height: 300px;
+	border-radius: 10%;
+	
+}
+section  {
+	text-align: center;
+	width: 50%;
+	padding: .6%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#aboutMePara {
+	max-width: 100%;
+	margin: auto;
+	margin-top: 2%;
+	font-size: 1.3em;
+}
